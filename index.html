@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudySphere | Smart Student Productivity Hub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#home"><span>✦</span> StudySphere</a>
+    <button class="menu" id="menuBtn">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a><a href="#features">Features</a><a href="#planner">Planner</a>
+      <a href="#resources">Resources</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="theme" id="themeBtn">◐</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">SMARTER STUDY • BETTER RESULTS</p>
+        <h1>Turn your study time into <span>progress.</span></h1>
+        <p class="lead">StudySphere is a simple productivity hub that helps students plan subjects, track goals, discover resources and build consistent study habits.</p>
+        <div class="actions">
+          <a class="btn primary" href="#planner">Build My Plan →</a>
+          <a class="btn ghost" href="#features">Explore Features</a>
+        </div>
+        <div class="mini-stats"><div><b>4.9/5</b><small>Student rating</small></div><div><b>12k+</b><small>Study plans</small></div><div><b>24/7</b><small>Access</small></div></div>
+      </div>
+      <div class="hero-card">
+        <div class="card-top"><span>Today's Focus</span><span class="dot"></span></div>
+        <div class="progress-ring"><strong>72%</strong><small>completed</small></div>
+        <div class="task"><span class="check">✓</span><div><b>Data Structures</b><small>45 min • Unit 3</small></div></div>
+        <div class="task"><span class="check">✓</span><div><b>Python Practice</b><small>30 min • 3 problems</small></div></div>
+        <div class="task muted"><span class="check">+</span><div><b>Revision Sprint</b><small>20 min • Flashcards</small></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-head"><p class="eyebrow">ONE PLACE FOR EVERYTHING</p><h2>Everything you need to study with purpose.</h2><p>Designed for students who want less confusion and more consistency.</p></div>
+      <div class="grid features">
+        <article><div class="icon">◫</div><h3>Smart Planner</h3><p>Create a practical daily plan around your classes, assignments and priorities.</p></article>
+        <article><div class="icon">✓</div><h3>Goal Tracking</h3><p>Break large academic goals into small milestones and watch your progress grow.</p></article>
+        <article><div class="icon">⌁</div><h3>Focus Sessions</h3><p>Use focused study blocks with short breaks to keep your attention on the task.</p></article>
+        <article><div class="icon">◈</div><h3>Resource Vault</h3><p>Keep notes, useful links, books and practice resources organized by subject.</p></article>
+        <article><div class="icon">↗</div><h3>Progress Insights</h3><p>See completed sessions, pending tasks and weekly study consistency at a glance.</p></article>
+        <article><div class="icon">★</div><h3>Motivation</h3><p>Celebrate streaks and small wins so studying feels measurable and rewarding.</p></article>
+      </div>
+    </section>
+
+    <section class="section planner" id="planner">
+      <div class="section-head"><p class="eyebrow">QUICK PLANNER</p><h2>Build today's study plan.</h2><p>Add a task and mark it complete when you're done.</p></div>
+      <div class="planner-box">
+        <div class="input-row"><input id="taskInput" type="text" placeholder="e.g. Complete OOP Unit 2"><select id="priority"><option>High priority</option><option>Medium priority</option><option>Low priority</option></select><button class="btn primary" id="addTask">Add Task</button></div>
+        <div id="taskList" class="task-list">
+          <div class="plan-item done"><button class="tick">✓</button><div><b>Review yesterday's notes</b><small>Completed</small></div></div>
+          <div class="plan-item"><button class="tick">○</button><div><b>Practice 5 DSA problems</b><small>High priority</small></div></div>
+          <div class="plan-item"><button class="tick">○</button><div><b>Read one Python concept</b><small>Medium priority</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="resources">
+      <div class="section-head"><p class="eyebrow">LEARNING RESOURCES</p><h2>Learn. Practice. Improve.</h2></div>
+      <div class="resource-grid">
+        <article class="resource"><span>01</span><h3>Concept Notes</h3><p>Short, organized explanations for quick revision before class or exams.</p><a href="#contact">Open resource →</a></article>
+        <article class="resource"><span>02</span><h3>Practice Zone</h3><p>Turn theory into skill with coding questions, quizzes and mini challenges.</p><a href="#contact">Open resource →</a></article>
+        <article class="resource"><span>03</span><h3>Career Corner</h3><p>Track projects, skills and preparation milestones for future internships.</p><a href="#contact">Open resource →</a></article>
+      </div>
+    </section>
+
+    <section class="section quote-section">
+      <div class="quote">“Consistency beats last-minute pressure. Make progress visible, one focused session at a time.”</div>
+      <p>— StudySphere Student Community</p>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="section-head"><p class="eyebrow">QUESTIONS</p><h2>Frequently asked.</h2></div>
+      <div class="faq-list">
+        <button class="faq-item"><span>Is StudySphere free to use?</span><b>+</b><p>Yes. This assignment demo is a free static website and runs directly in your browser.</p></button>
+        <button class="faq-item"><span>Can I use it on mobile?</span><b>+</b><p>Yes. The layout is responsive and adapts to phones, tablets and desktop screens.</p></button>
+        <button class="faq-item"><span>Does the planner save data?</span><b>+</b><p>This demo stores tasks only in the current browser session. A backend can be added later.</p></button>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div><p class="eyebrow">GET IN TOUCH</p><h2>Ready to study smarter?</h2><p>Have feedback or an idea for StudySphere? Send a message.</p></div>
+      <form id="contactForm"><input required placeholder="Your name"><input required type="email" placeholder="Email address"><textarea required rows="4" placeholder="Your message"></textarea><button class="btn primary" type="submit">Send Message →</button><p id="formMsg"></p></form>
+    </section>
+  </main>
+
+  <footer><div class="brand"><span>✦</span> StudySphere</div><p>Smart Student Productivity Hub • Assignment Project</p><small>© 2026 StudySphere. Built for learning.</small></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
